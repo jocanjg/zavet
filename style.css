@@ -9725,19 +9725,23 @@ body:not(.device-touch) .button.button-full strong {
 	margin-top: 0.5rem;
 	margin-bottom: 0px;
 	color: #999;
+	
 }
 
 .fbox-content .before-heading {
 	font-size: 0.875rem;
+	
 }
 
 .fbox-content-sm h3,
 .fbox-content-sm p {
 	font-size: 0.875rem;
+	
 }
 
 .fbox-content-sm .before-heading {
 	font-size: 0.75rem;
+
 }
 
 .fbox-content-lg h3 {

@@ -11,7 +11,7 @@
 	--fulldark: 			#111;
 	--light: 				#EEE;
 	--section-about-bg: 	url('images/dots-1.png');
-	--section-features-bg: 	url('images/bg-3.svg');
+	--section-features-bg: 	url('images/cumic.png');
 }
 
 /* Swiper Slider
@@ -144,10 +144,10 @@ body:not(.dark) .section-scroller {
 
 body:not(.dark) .section-features {
 	background-color: transparent;
-	background-repeat: no-repeat;
-	background-position: center bottom;
-	/* background-image: var(--section-features-bg); */
-	background-size: auto 100%;
+	background-repeat: contain;
+	 
+	background-image: var(--section-features-bg);
+	 
 }
 .section-scroller .swiper-container,
 .section-scroller .swiper-container .swiper-slide { overflow: visible; }
